@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>块级元素和行内元素</title>
+</head>
+<body>
+    <!--块级元素，特点：独占一行-->
+    <!-- <marquee>比特工场</marquee>
+    <marquee>比特工场</marquee>
+    <h1>比特工场</h1>
+    <h1>比特工场</h1>
+    <p>比特工场</p>
+    <p>比特工场</p>
+    <div>比特工场</div>
+    <div>比特工场</div> -->
+
+    <!--行内元素，特点：不独占一行-->
+    <!-- <input type="text">
+    <input type="text">
+    <span>比特工场</span>
+    <span>比特工场</span> -->
+
+    <!--规则一：块级元素中能写：行内元素、块级元素（几乎什么都能写）-->
+    <!-- <div>
+        <span>比特工场1</span>
+        <input type="text">
+        <div>比特工场2</div>
+    </div> -->
+
+    <!--规则二：行内元素能写行内元素，但不能写块级元素-->
+    <!-- <span>
+        <span>比特工场1</span>
+        <input type="text">
+        <span>比特工场2</span>
+    </span> -->
+
+    <!--特殊规则：h标签不能相互嵌套-->
+
+    <!--特殊规则：p标签中不能写块级元素-->
+    <p>
+        <h1>比特工场1</h1>
+    </p>
+</body>
+</html>
