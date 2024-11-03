@@ -1,0 +1,5 @@
+1 Beijing Shanghai Air1 2024-07-01 2
+2 Guangzhou Shenzhen Air2 2024-07-02 0
+3 Chengdu Chongqing Air3 2024-07-03 4
+4 Hangzhou Nanjing Air4 2024-07-04 6
+5 Wuhan Changsha Air5 2024-07-05 5
